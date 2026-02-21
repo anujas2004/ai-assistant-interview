@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Interview Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>AI Interview Assistant 🚀</h2>
+
+        <select id="mode">
+            <option value="dsa">DSA Mode</option>
+            <option value="hr">HR Mode</option>
+            <option value="mock">Mock Interview</option>
+        </select>
+
+        <div id="chat-box"></div>
+
+        <input type="text" id="user_id" placeholder="Enter User ID">
+        <input type="text" id="message" placeholder="Ask a question...">
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="clearChat()">Clear Chat</button>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
